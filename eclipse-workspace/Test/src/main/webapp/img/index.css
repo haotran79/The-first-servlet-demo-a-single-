@@ -1,0 +1,22 @@
+
+.container {
+    /* background-color: rgb(188, 207, 188); */
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.image-container {
+	position: relative;
+}
+
+.image-container img {
+	padding-bottom: 10%;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover img {
+	transform: scale(1.1);
+}
